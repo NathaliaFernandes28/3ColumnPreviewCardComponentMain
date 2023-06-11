@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 11em;
+  margin-top: 2em;
+}
+.sedansSection {
+  background-color: hsl(31, 77%, 52%);
+  padding: 35px;
+  height: 380px;
+  width: 240px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.sedansImg {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.sedansHeading {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display, sans-serif;
+  font-weight: 700px;
+  margin-top: 15px;
+}
+.sedansParagraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 12px;
+  width: 190px;
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 400px;
+  margin-top: 35px;
+  line-height: 1.5;
+}
+.sedansButton {
+  background-color: hsl(0, 0%, 95%);
+  padding: 7px 15px 7px 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: hsl(31, 77%, 52%);
+  font-size: 12px;
+  margin-top: 5em;
+}
+.sedansButton:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.suvsSection {
+  background-color: hsl(184, 100%, 22%);
+  padding: 35px;
+  height: 380px;
+  width: 240px;
+}
+.suvsImg {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.suvsHeading {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display, sans-serif;
+  font-weight: 700px;
+  margin-top: 15px;
+}
+.suvsParagraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 12px;
+  width: 190px;
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 400px;
+  margin-top: 35px;
+  line-height: 1.5;
+}
+.suvsButton {
+  background-color: hsl(0, 0%, 95%);
+  padding: 7px 15px 7px 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: hsl(184, 100%, 22%);
+  font-size: 12px;
+  margin-top: 5em;
+}
+.suvsButton:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.luxurySection {
+  background-color: hsl(179, 100%, 13%);
+  padding: 35px;
+  height: 380px;
+  width: 240px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.luxuryImg {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.luxuryHeading {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display, sans-serif;
+  font-weight: 700px;
+  margin-top: 15px;
+}
+.luxuryParagraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 12px;
+  width: 190px;
+  font-family: Lexend Deca, sans-serif;
+  font-weight: 400px;
+  margin-top: 35px;
+  line-height: 1.5;
+}
+.luxuryButton {
+  background-color: hsl(0, 0%, 95%);
+  padding: 7px 15px 7px 15px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: hsl(179, 100%, 13%);
+  font-size: 12px;
+  margin-top: 5em;
+}
+.luxuryButton:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  body {
+    background-color: hsl(0, 0%, 95%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 3em 5em 3em;
+  }
+
+  .sedansSection {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .luxurySection {
+    background-color: hsl(179, 100%, 13%);
+    padding: 35px;
+    height: 380px;
+    width: 240px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
